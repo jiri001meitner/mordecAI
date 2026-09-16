@@ -15,6 +15,20 @@ If implementation details conflict with the architectural invariants in `ARCHITE
 
 ---
 
+## Ideas (`~/docker/ideas/`)
+
+Immature ideas for projects and extensions live in `~/docker/ideas/`
+(a symlink to `~/linuxadm/ideas/`; rules are in chapter 12 of that
+repository's `AGENTS.md`). The idea files are written in Czech.
+
+1. **Search before work**: `rg <topic> ~/docker/ideas/`. If an idea fits the
+   task or its "Na co čeká" (waiting for) section is newly satisfied, tell the
+   user. Do not implement it on your own.
+1. **Out-of-scope ideas**: propose recording them in `~/docker/ideas/` using
+   the template in `~/docker/ideas/INDEX.md`.
+
+---
+
 ## 1. Mission
 
 MORDECAI is a permissionless distributed AI network intended to operate **one shared intelligent system** across heterogeneous resources contributed by independent participants.
