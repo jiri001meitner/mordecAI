@@ -1579,3 +1579,18 @@ Keep blockchain out of tensor paths.
 Keep hardware details below the intelligence API.
 
 And when a design requires the entire Internet to behave like localhost, the design is wrong.
+
+## Validation according to change impact
+
+- Select checks from the actual impact and build inputs, not file extensions.
+- Changes limited to project documentation that is neither used at runtime
+  nor included in published output require content, formatting, link, and
+  diff checks. Do not build the application or images, regenerate assets,
+  or run application integration and end-to-end tests solely for such edits.
+- Code, dependency, configuration, template, published-content, and runtime
+  changes require the relevant project tests and builds. Markdown used as
+  website content or production prompts and instructions is not automatically
+  documentation-only.
+- Reuse a tested artifact only when the existing release workflow verifies
+  identical build inputs and traceable artifact provenance. This rule does
+  not introduce a new release system.
